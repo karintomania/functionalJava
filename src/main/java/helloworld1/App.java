@@ -12,7 +12,8 @@ public class App {
 
     public static void main(String[] args) {
 		
-		Lesson3.run();
+		// Lesson3.fixBandsImperatively();
+		Lesson3.fixBands();
 		// Lesson2 appendix
 		// L2a.controllerL2a();
 		// Lesson2
