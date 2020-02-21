@@ -1,4 +1,4 @@
-package helloworld1.lesson2;
+package helloworld1.lesson3;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,9 +9,9 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class L2a {
+public class Lesson3A {
 
-	public static void controllerL2a(){
+	public static void run(){
 		List<Car> cars = createCars();
 		// List<String> models = getModelsAfter2000UsingFor(cars);
 		List<String> models = getModelsAfter2000(cars);

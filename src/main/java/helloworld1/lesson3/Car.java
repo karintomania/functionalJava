@@ -1,5 +1,5 @@
 
-package helloworld1.lesson2;
+package helloworld1.lesson3;
 
 class Car{
 
