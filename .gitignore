@@ -6,4 +6,4 @@ build
 
 .vscode
 
-*.class
+**/*.class
