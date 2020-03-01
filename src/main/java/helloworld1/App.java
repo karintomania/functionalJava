@@ -4,6 +4,7 @@
 package helloworld1;
 
 
+import helloworld1.example.Example;
 import helloworld1.lesson1.*;
 import helloworld1.lesson2.*;
 import helloworld1.lesson3.*;
@@ -12,10 +13,17 @@ public class App {
 
     public static void main(String[] args) {
 		
+		// Example
+		Example.run();
+
+		// Lesson3
 		// Lesson3.fixBandsImperatively();
-		Lesson3.fixBands();
-		// Lesson2 appendix
-		// L2a.controllerL2a();
+		// Lesson3.fixBands();
+
+		// Lesson3 appendix
+		// Lesson3A.run();
+
+
 		// Lesson2
 		// Lesson2.runRace();
 		// Lesson2.runRaceFunc();
@@ -23,12 +31,15 @@ public class App {
 
 		// Lesson1
 		// Lesson1.nameLength();
+		// Lesson1.nameLengthFunc();
 		// Lesson1.square();
 		// hashNamesFunc();
-		// reduceSum();
+		// Lesson1.reduceSum();
 		// countSam();
 		// Lesson1.execise2();
-
+		// Lesson1.square();
+		// Lesson1.squareFunc();
+		// Lesson1.useOriginalFunc();
 	}
 
 }
